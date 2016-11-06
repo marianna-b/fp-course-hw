@@ -1,0 +1,5 @@
+a :: Either Double Int
+traverse show a :: [Either Double Char]
+show :: a -> [Char]
+f = []
+b =Char
