@@ -1,0 +1,29 @@
+name:                hw11
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            https://github.com/githubuser/hw11#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2016 Author name here
+category:            Web
+build-type:          Simple              
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable hw11
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5,
+                       log-warper >= 0.1.0,
+                       text >= 1.2,
+                       random >= 1.1,
+                       MonadRandom >= 0.4,
+                       containers >= 0.5,
+                       async >= 2.1,
+                       lens >= 4.14,
+                       parallel >= 3.2,
+                       threadmanager >= 0.1

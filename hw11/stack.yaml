@@ -1,0 +1,19 @@
+resolver: lts-7.14
+
+packages:
+- '.'
+- location:
+    git: https://github.com/serokell/log-warper.git
+    commit: 409055f388e321aa3a9c97cd66215aad2c414adb
+  extra-dep: true
+
+extra-deps:
+- serokell-util-0.1.2.3
+- aeson-extra-0.4.0.0
+- data-msgpack-0.0.8
+- time-units-1.0.0
+- recursion-schemes-5.0.1
+- threadmanager-0.1.7
+
+flags: {}
+extra-package-dbs: []
